@@ -1,5 +1,5 @@
 
-.foto{
+.foto1 {
 
     position: relative;
     width: 100%;
@@ -15,4 +15,8 @@
 }
 
 
+.BarraDeNavegacao{
 
+    color: Frgba(246, 205, 33, 1);
+    
+}

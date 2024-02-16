@@ -1,16 +1,20 @@
 
-import "Projetos"
-import "styless.css"
+import "./styles.css"
+import "./.../.../components/Projetos";
+import ".../src/data/index";
 
 function Projetos(){
 
     return (
-    <div>   
+
+    <div className="Dev"> 
+          
     <a href="projetofinal.css">Projeto de Página e-comerce</a>
-    <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></a>
-    <a href="projetofinal JavaScript">Projeto Calculadora</a>
-    <a href="https://roselambiasedesigncalculadora.netlify.app/"></a>
+     <a href="https://stately-cuchufli-65fefa.netlify.app/#portfolio">Portfólio</a>
+    <a href="https://roselambiasedesigncalculadora.netlify.app/">Calculadora</a>
     </div>
-    )
+   
+     )
 }
  export default Projetos;
+ 

@@ -1,24 +1,24 @@
-import Head from "./components/Head/";
-import Section from "./components/Section";
-import SubSection from "./components/SubSection";
+import Header from "./components/Header/";
 import Projetos from "./components/Projetos";
-import ResponsiveAppBar from "./components/ResponsiveAppBar";
-import PaginaInicial from  "./components/PaginaInicial";
+import PaginaInicial from "./components/PaginaInicial";
 import Rodape from "./components/Rodape";
+import Contatos from "./components/Contatos";
+import { Container } from "@mui/material";
+import Menu from "./components/Header/Menu";
 
 
-function App  () {
-    return (
-      <> 
-    <Head/>
-    <ResponsiveAppBar/>
-    <Section/>
-    <SubSection/>
-    <Projetos/>
-    <PaginaInicial/>
-    <Rodape/>
-       
+function App() {
+  return (
+    <><Container /> 
+    <Contatos /> 
+      <Header />
+      <PaginaInicial />
+      <Projetos />
+       <Rodape />
+     
+            <Menu />
+
     </>
-        )
+  )
 }
 export default App;
